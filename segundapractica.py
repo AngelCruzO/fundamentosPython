@@ -17,7 +17,7 @@ print(edad + edadString)
 
 print(type(edadString))
 
-tuEdad = input("Introduce tu edad")
+tuEdad = input("Introduce tu edad: ")
 tuEdad = int(tuEdad)
 
 #estructura de control for
@@ -33,4 +33,3 @@ else:
 #estructura de control for
 for i in range(0, 10):
     print(i)
-
